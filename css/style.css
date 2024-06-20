@@ -17,6 +17,14 @@ a {
 ul {
     list-style-type: none;
 }
+
+button{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
 .container {
     max-width: 1220px;
     padding: 0 10px;
@@ -338,3 +346,20 @@ header {
     font-style: italic;
 }
 
+
+.video{
+    margin-bottom: 150px;
+}
+
+.video__box{
+    margin-left: auto;
+    min-width: 997px;
+    min-height: 600px;
+    background-image: url(../images/12\ 1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
