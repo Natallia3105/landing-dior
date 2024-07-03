@@ -381,6 +381,14 @@ header {
     margin-right: 10px;
 }
 
+.footer__items{
+    flex-basis: 387px;
+}
+
+.footer__item + .footer__item{
+    margin-top: 70px;
+}
+
 .footer__item-title{
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -394,7 +402,7 @@ header {
 .footer__item-input{
     width: 100%;
     display: block;
-    padding: 10px 0;
+    padding: 10px 60px 10px 0;
     border: none;
     border-bottom: 1px solid #000;
     background-color: #C4A9CD;
@@ -417,4 +425,12 @@ header {
     right: 0;
     top: 10px;
 
+}
+
+.footer__item-list li{
+    padding-top: 10px;
+}
+
+.footr__social-list{
+    margin-left: 10px;
 }
