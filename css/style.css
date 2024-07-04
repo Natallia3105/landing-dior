@@ -431,6 +431,35 @@ header {
     padding-top: 10px;
 }
 
-.footr__social-list{
+.footer__social-list{
+    margin-right: 105px;
     margin-left: 10px;
+    align-self: flex-end;
+} 
+
+.footer__social-item + .footer__social-item{
+    margin-top: 20px;
 }
+
+.footer__social-item svg path{
+    transition: all .3s;
+    }
+
+
+.footer__social-item svg:hover path{
+fill: #7449BB;
+}
+
+.footer__nav{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 105px;
+}
+
+
+.footer__nav-list{
+    margin-left: auto;
+    display: flex;
+    gap: 0 20px;
+}
+
