@@ -245,7 +245,7 @@ header {
     background-image: url(../images/accordeon-img.jpg);
     width: 65px;
     height: 120px;
-    bottom: -73px;
+    bottom: -105px;
     left: 268px;
 }
 
@@ -467,6 +467,10 @@ fill: #7449BB;
     .about__textbox {
         display: block;
     }
+
+    .accordeon__inner{
+        padding-left: 0;
+    }
 }
 
 @media (max-width: 992px) {
@@ -501,9 +505,26 @@ fill: #7449BB;
 
 }
 
+@media (max-width: 768px){
+    .accordeon__triger{
+        display: block;
+        padding-top: 20px;
+    }
+    .accordeon__triger-title{
+        padding-bottom: 10px;
+    }
+    .accordeon__item::before{
+        top: 0;
+        bottom: 0;
+        margin-left: auto;
+        margin-bottom: auto;
+        right: 25px;
+    }
+}
+
 @media (max-width: 630px){
     .about__slider{
-        padding-left: 0;
+        padding-top: 0;
         margin-left: 0;
     }
     .about__inner{
@@ -537,6 +558,15 @@ fill: #7449BB;
         margin-bottom: 0;
         text-align: center;
     }
+    .accordeon__item{
+        padding: 0 50px 0 0;
+    }
+     .accordeon__triger-text{
+        margin-right: 0;
+    }
+    .accordeon__item:last-child::after{
+        display: none;
+    }
 
 }
 
@@ -561,6 +591,9 @@ fill: #7449BB;
 
     .about__slider{
         width: 1500px;
+    }
+    .accordeon__item:last-child::after{
+        display: none;
     }
 }
 
